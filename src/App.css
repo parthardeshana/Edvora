@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+	background: #292929;
+	color: #ffffff;
+}
+
+/* homepage  */
+.edvora_title {
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 42px;
+	color: rgba(255, 255, 255, 0.87);
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.product_text {
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 0.5);
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.gray_text{
+	color: rgba(255, 255, 255, 0.5);
+}
+
+/* shared compo  */
+.productName_title {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	color: #ffffff;
+}
+.selection {
+	width: 168.45px;
+}
+
+.mycard {
+	width: 984px;
+	overflow-x: scroll;
+	height: 190px;
+	background: #131313;
+	border-radius: 15px;
+}
+.subcard {
+	width: 210px;
+	height: 150px;
+	background: #232323;
+	border-radius: 4.68775px;
+}
+.prod_name {
+	width: 120px;
+	height: 16px;
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #ffffff;
+}
+.brand_name {
+	width: 91px;
+	height: 14px;
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: rgba(255, 255, 255, 0.6);
+}
+.price {
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: #ffffff;
+}
+.product-image {
+	width: 70px;
+	height: 70px;
+	border-radius: 5px;
+}
+.product_date,
+.product_location {
+	font-family: SF Pro Rounded;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 11px;
+	color: rgba(255, 255, 255, 0.6);
+}
+.product_date span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+}
+.description {
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 13px;
+}
+
+.sidebar_section {
+	width: 228px;
+	height: 275px;
+	background: #131313;
+	/* position: absolute; */
+	border-radius: 15px;
+	/* left: 41px;
+	top: 43px; */
+}
+.filter_text {
+	/* position: absolute; */
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 24px;
+	/* identical to box height */
+	color: #a5a5a5;
+}
